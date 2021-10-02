@@ -1,0 +1,7 @@
+.feed{
+    width: 65%;
+    height: auto;
+    min-height: 75vh;
+    margin-top: 20px;
+    overflow-y: auto;
+}

@@ -1,0 +1,49 @@
+.story_prview{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, .9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.story_prview > img {
+    width: 40%;
+}
+
+.story_previewloading{
+    width: 40%;
+    height: 5px;
+    border-radius: 5px;
+    background-color:grey;
+    margin-bottom: 20px;
+}
+
+.innerloading{
+    height: 5px;
+    border-radius: 5px;
+    background-color: #fff;
+    animation: loadStory 5s linear;
+}
+
+@keyframes loadStory {
+    from{
+        width: 0%;
+    }
+    to{
+        width: 100%;
+    }
+}
+
+.preview_close{
+    font-size: 40px;
+    color: #fff;
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}

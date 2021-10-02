@@ -1,0 +1,6 @@
+.home__container{
+    width: 60%;
+    height: auto;
+    min-height: calc(100vh - 200px);
+    margin: 30px auto;
+}
